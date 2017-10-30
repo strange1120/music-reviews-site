@@ -50,8 +50,7 @@ a {
 
 .album-links {
 	border-radius: 30px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin: auto 200px;
 }
 
 
@@ -76,8 +75,7 @@ body {
 }
 
 .genre {
-	margin-left: 210px;
-	margin-right: 210px;
+	margin: auto 210px;
 }
 
 .back-to-home {
@@ -90,18 +88,15 @@ body {
 	background-color: #6BE5F5;
 	margin-left: 140px;
 	margin-right: 350px;
-	padding-top: 1px;
-	padding-left: 20px;
+	padding: 1px 15px;
 	height: 200px;
 	width: 400px;
-	font-size: 30px;
+	font-size: 25px;
 	border-radius: 30px;
-	padding-left: 20px;
 }
 
 .date {
-	margin-left: 130px;
-	margin-right: 130px;
+	margin: auto 130px;
 }
 
 
@@ -109,7 +104,7 @@ body {
 	background-color: #6BE5F5;
 	border-radius: 30px;
 	text-align: center;
-	margin: 10px 10px;
+	margin: 10px;
 	font-size: 25px;
 	padding: .1px;
 	color: #FF88BF;
@@ -124,13 +119,11 @@ body {
 .second-box {
 	background-color: #F9EE72;
 	border-radius: 100px;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin: auto 60px;
 }
 
 .album-title {
-	margin-left: 150px;
-	margin-right: 150px;
+	margin: auto 150px;
 	text-align: center;
 	border-radius: 30px;
 }
