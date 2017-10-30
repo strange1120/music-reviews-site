@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="utf-8"></meta>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+<link rel="stylesheet" type="text/css" href="./styles.css" />
+<title>Strange ~Vibes~</title>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div class="first-box">
+				<div class="second-box">
+					<h1>Strange ~Vibes~</h1>
+				</div>
+			</div>
+		</header>
+		<section id="introduction">
+			<p>I heard you you're looking for the ~vIbEs~. I have the deets
+				on all the vibes you need. Hope you're ready to listen to my
+				unsolicited opinion.</p>
+		</section>
+		<div th:each="review: ${reviews}">
+			<section class="album-links">
+				<h2>
+					<a th:href="@{/review(id=${review.id})}" th:text="${review.title}"></a>
+				</h2>
+			</section>
+		</div>
+
+	</div>
+</body>
+</html>
